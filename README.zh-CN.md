@@ -4,6 +4,8 @@
 
 面向小米 MIX 4（odin）的 **MIUI 相机 5.1.001130.2** 兼容移植，以 Magisk 模块形式发布。当前版本：**0.11.0-ncs-timestamp-range**，发布日期：2026-10-20。
 
+Co-Engineered with ChatGPT
+
 ## 支持环境
 
 - Inkypen 的 LineageOS **24.0-20260815-UNOFFICIAL-gapps-odin**，Android 17 / SDK 37。
