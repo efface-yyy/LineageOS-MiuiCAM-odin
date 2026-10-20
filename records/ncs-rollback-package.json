@@ -1,0 +1,5 @@
+{
+  "path": "modules\\odin_lineage_miuicamera_0.10.0-rollback-from-0.11.zip",
+  "sha256": "a9566b4a8f6971df17888fca94042c903b4bfabb1674a99e63440963620689c5",
+  "scope": "0.10 unchanged payload; only installer current-HAL allowlist adds verified 0.11 hash"
+}

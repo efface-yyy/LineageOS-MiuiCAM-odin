@@ -1,0 +1,9 @@
+{
+  "baseline_sha256": "9a7215d1bfe46aeff0ea0c680dcd45aaf4b0fdd0e5eed1457793325cdd805cfe",
+  "patched_sha256": "f0edc60ab3e93aeab5e81d48e806d635485c0cb4724d3f85b5542ac61a164ab9",
+  "branch_va": "0x38ba",
+  "text_relocation_delta": 4096,
+  "helper_va": "0x8000",
+  "helper_size": 22,
+  "scope": "32-bit compress_read POLLIN: refresh AVAIL before reading; no audio source, codec or routing changes"
+}

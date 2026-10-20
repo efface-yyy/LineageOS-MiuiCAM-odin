@@ -1,0 +1,16 @@
+[
+  {
+    "library": "libcamera_algoup_jni.xiaomi.so",
+    "original_text_sha256": "be4da32bb628f407beda3f09f117ff1fe77a221b5bf4a351796d0e64e0ca33c1",
+    "patched_text_sha256": "1321676f9d1426702e72228265763d09ff7e6cc2db67833e31a5d8a4296216b5",
+    "changed_text_bytes": 3,
+    "change": "DT_NEEDED ABI bridge; algoup only: null legacy MIVI function pointer guard at original VA 0xb260"
+  },
+  {
+    "library": "libcamera_mianode_jni.xiaomi.so",
+    "original_text_sha256": "c4810361452fdc1e71aa9f6df7f0498858e7a88ebb7f32fcc302e30a15389c19",
+    "patched_text_sha256": "c4810361452fdc1e71aa9f6df7f0498858e7a88ebb7f32fcc302e30a15389c19",
+    "changed_text_bytes": 0,
+    "change": "DT_NEEDED ABI bridge; algoup only: null legacy MIVI function pointer guard at original VA 0xb260"
+  }
+]

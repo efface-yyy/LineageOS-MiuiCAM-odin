@@ -1,0 +1,6 @@
+id=odin_lineage_miuicamera
+name=MIX 4 MIUI Camera compatibility validation
+version=0.11.0-ncs-timestamp-range
+versionCode=11
+author=efface-yyy
+description=Exact 20260815 build; SSC gyro range uses actual timestamp scan; original algorithms and previous compatibility fixes retained

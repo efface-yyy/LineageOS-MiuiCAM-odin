@@ -1,0 +1,24 @@
+--- a/media/libstagefright/FrameDecoder.cpp
++++ b/media/libstagefright/FrameDecoder.cpp
+@@ -815,7 +815,20 @@
+             return NO_INIT;
+         }
+ 
+-        uint8_t* frameData = converter.wrap()->data();
++        sp<ABuffer> frameBuffer = converter.wrap();
++        if (frameBuffer == nullptr) {
++            frameBuffer = new ABuffer(converter.backBufferSize());
++            if (frameBuffer->base() == nullptr || !converter.setBackBuffer(frameBuffer)) {
++                ALOGE("Failed to allocate frame conversion buffer");
++                return NO_MEMORY;
++            }
++            status_t copyStatus = converter.copyToMediaImage();
++            if (copyStatus != OK) {
++                ALOGE("Failed to copy decoded frame: %d", copyStatus);
++                return copyStatus;
++            }
++        }
++        uint8_t* frameData = frameBuffer->data();
+         sp<ABuffer> imageData = converter.imageData();
+         if (imageData != nullptr) {
+             mOutputFormat->setBuffer("image-data", imageData);

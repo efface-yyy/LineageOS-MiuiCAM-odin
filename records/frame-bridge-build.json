@@ -1,0 +1,15 @@
+{
+  "sha256": "9bbe096c0be0906a4eb3a866dd2d369cd2320e9e1606b87160440a92e67aad91",
+  "imports": [
+    "_ZNK7android31GraphicView2MediaImageConverter4wrapEv",
+    "_ZNK7android31GraphicView2MediaImageConverter14backBufferSizeEv",
+    "calloc",
+    "_ZN7android7ABuffer12CreateAsCopyEPKvj",
+    "free",
+    "_ZN7android31GraphicView2MediaImageConverter13setBackBufferERKNS_2spINS_7ABufferEEE",
+    "_ZN7android31GraphicView2MediaImageConverter16copyToMediaImageEv",
+    "_ZNK7android7RefBase9decStrongEPKv"
+  ],
+  "assembly": "\npush.w {r4,r5,r6,r7,r8,lr}\nmov r4,r0\nmov r5,r1\ncall0: bl call0\nldr r0,[r4]\ncmp r0,#0\nbne done\nmov r0,r5\ncall1: bl call1\nmov r6,r0\ncmp r6,#0\nbeq done\nmovs r0,#1\nmov r1,r6\ncall2: bl call2\nmov r7,r0\ncmp r7,#0\nbeq done\nmov r0,r4\nmov r1,r7\nmov r2,r6\ncall3: bl call3\nmov r0,r7\ncall4: bl call4\nldr r0,[r4]\ncmp r0,#0\nbeq done\nmov r0,r5\nmov r1,r4\ncall5: bl call5\ncmp r0,#0\nbeq fail\nmov r0,r5\ncall6: bl call6\ncmp r0,#0\nbne fail\ndone:\nmov r0,r4\npop.w {r4,r5,r6,r7,r8,pc}\nfail:\nldr r0,[r4]\nmov r1,r4\ncall7: bl call7\nmovs r0,#0\nstr r0,[r4]\nb done\n",
+  "purpose": "FrameDecoder copy fallback only; no codec replacement"
+}

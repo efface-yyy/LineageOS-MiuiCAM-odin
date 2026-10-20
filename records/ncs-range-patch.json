@@ -1,0 +1,14 @@
+{
+  "baseline_sha256": "0b869f9ec111681f90100db0bbe47196a55f2f44ff22ef20039d90ec3a05ed0a",
+  "patched_sha256": "c3d262079c7c09efaa060b69a6c10eb90442e1cb1ddacc7641ca046ffc159d52",
+  "va": "0xbf9128",
+  "file_offset": "0xbf9128",
+  "before": "49010f0be1010e4b",
+  "after": "fc030e2a27000014",
+  "instructions": [
+    "mov w28, w14",
+    "b #0xbf91c8"
+  ],
+  "scope": "SSC synchronous range start: oldest valid index then existing bounded timestamp scan; original algorithms, samples and timestamps unchanged",
+  "rollback": "Install modules/odin_lineage_miuicamera_0.10.0-rollback-from-0.11.zip and reboot"
+}

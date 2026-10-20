@@ -1,0 +1,11 @@
+{
+  "baseline_sha256": "a2c7bbb1d54b154d95e14acb33d2f25a5e99707d787bd3119362ff95075c39d4",
+  "patched_sha256": "0b869f9ec111681f90100db0bbe47196a55f2f44ff22ef20039d90ec3a05ed0a",
+  "driver_sha256": "054b477e19cd0cb8a015f0ce28295db6c688e14a022fed90ad5919caa12ef51c",
+  "site": "0xaae3dc",
+  "cave": "0xc23260",
+  "code_size": 256,
+  "property": "persist.vendor.camera.odin_postinit_compat",
+  "upstream_fix": "https://github.com/Inkypen79/kernel_xiaomi_odin/pull/4",
+  "scope": "wide OIS factory post-init via original control parser; no kernel flash; no algorithm changes"
+}

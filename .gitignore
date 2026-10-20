@@ -1,0 +1,15 @@
+work/
+evidence/
+artifacts/
+*.apk
+*.jar
+*.so
+*.zip
+*.mp4
+*.jpg
+*.png
+*.keystore
+*.jks
+*.pem
+__pycache__/
+.venv/

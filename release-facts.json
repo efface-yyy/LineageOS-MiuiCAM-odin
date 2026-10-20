@@ -1,0 +1,24 @@
+{
+  "version": "0.11.0-ncs-timestamp-range",
+  "date": "2026-10-20",
+  "device": "Xiaomi MIX 4",
+  "codename": "odin",
+  "rom": "LineageOS 24.0-20260815-UNOFFICIAL-gapps-odin",
+  "android": 17,
+  "sdk": 37,
+  "apk_version": "5.1.001130.2",
+  "magisk_tested": "30.7",
+  "selinux": "Enforcing",
+  "kernel_replaced": false,
+  "stock_quality_equivalence_verified": false,
+  "source_scope": "Compatibility bridge source and exact binary patch generators; not proprietary OEM processing source",
+  "excluded": [
+    "device media",
+    "raw logs",
+    "signing private keys",
+    "calibration dumps",
+    "user preferences"
+  ],
+  "repository": "https://github.com/efface-yyy/LineageOS-MiuiCAM-odin",
+  "release_tag": "v0.11.0"
+}

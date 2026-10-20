@@ -1,0 +1,7 @@
+{
+  "plugin_baseline_sha256": "43a09f5ab1599d15c385a1b2cdc5051323e435e55ece4961c59bd6212089ead2",
+  "plugin_overlay_sha256": "acd3416abca98b8f75e9ad746cd5a3fd312a5ee5c3bcc11586cb2d6cba8e4178",
+  "allocator_original_sha256": "7a4109b13a5a8e98d1a0df8269c2f355e1e313a10b4509cffbd2cfaa79a32570",
+  "allocator_alias_sha256": "52ca2aa99f79fc052d778d1691f4e7f876dbb19511e43af8661aae4359a61415",
+  "scope": "Only plugin dlopen name and allocator SONAME changed; both .text sections unchanged; cache original untouched beneath reboot-reversible binds"
+}
