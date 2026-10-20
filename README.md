@@ -3,6 +3,7 @@
 [English](README.md) | [简体中文](README.zh-CN.md)
 
 MIUI Camera **5.1.001130.2** compatibility port for **Xiaomi MIX 4 (odin)**, distributed as a Magisk module. Current release: **0.11.0-ncs-timestamp-range**, 2026-10-20.
+
 Co-Engineered with ChatGPT
 
 ## Supported target
