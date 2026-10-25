@@ -2,9 +2,11 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-面向小米 MIX 4（odin）的 **MIUI 相机 5.1.001130.2** 兼容移植，以 Magisk 模块形式发布。当前版本：**0.11.0-ncs-timestamp-range**，发布日期：2026-10-20。
+面向小米 MIX 4（odin）的 **MIUI 相机 5.1.001130.2** 兼容移植，以 Magisk 模块形式发布。当前版本：**0.12.0-first-start-compat**，发布日期：2026-10-26。
 
 Co-Engineered with ChatGPT
+
+0.12 在用户解锁后补充缺失的首次引导配置，修复相机数据重新初始化后的立即退出；保留已有设置及联网同意状态。清除数据后可点击模块操作按钮重试初始化；ReSukiSU 的应用挂载配置仍需手动设置。
 
 ## 支持环境
 
@@ -16,14 +18,14 @@ Co-Engineered with ChatGPT
 
 ## 下载
 
-请前往 [v0.11.0 发布页](https://github.com/efface-yyy/LineageOS-MiuiCAM-odin/releases/tag/v0.11.0) 下载安装包。GitHub 自动生成的 Source code 压缩包不能作为 Magisk 模块安装。
+请前往 [v0.12.0 发布页](https://github.com/efface-yyy/LineageOS-MiuiCAM-odin/releases/tag/v0.12.0) 下载安装包。GitHub 自动生成的 Source code 压缩包不能作为 Magisk 模块安装。
 
 | 文件 | 用途 |
 |---|---|
-| [0.11 安装包](https://github.com/efface-yyy/LineageOS-MiuiCAM-odin/releases/download/v0.11.0/odin_lineage_miuicamera_0.11.0-ncs-timestamp-range.zip) | 当前推荐安装的 Magisk 模块 |
+| [0.12 安装包](https://github.com/efface-yyy/LineageOS-MiuiCAM-odin/releases/download/v0.12.0/odin_lineage_miuicamera_0.12.0-first-start-compat.zip) | 当前推荐安装的 Magisk 模块 |
 | [0.10 专用回退包](https://github.com/efface-yyy/LineageOS-MiuiCAM-odin/releases/download/v0.11.0/odin_lineage_miuicamera_0.10.0-rollback-from-0.11.zip) | 仅在需要从 0.11 降级时使用，不需要同时安装 |
-| [源码材料压缩包](https://github.com/efface-yyy/LineageOS-MiuiCAM-odin/releases/download/v0.11.0/odin_miuicamera_0.11.0-source-materials.zip) | 兼容代码、补丁生成脚本、模块文本配置和技术记录，不能刷入 |
-| [SHA256SUMS.txt](https://github.com/efface-yyy/LineageOS-MiuiCAM-odin/releases/download/v0.11.0/SHA256SUMS.txt) | 发布附件的 SHA-256 校验值 |
+| [源码材料压缩包](https://github.com/efface-yyy/LineageOS-MiuiCAM-odin/releases/download/v0.12.0/odin_miuicamera_0.12.0-source-materials.zip) | 兼容代码、补丁生成脚本、模块文本配置和技术记录，不能刷入 |
+| [SHA256SUMS.txt](https://github.com/efface-yyy/LineageOS-MiuiCAM-odin/releases/download/v0.12.0/SHA256SUMS.txt) | 发布附件的 SHA-256 校验值 |
 
 安装前请阅读[安装与回退说明](docs/INSTALL.zh-CN.md)。
 

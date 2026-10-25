@@ -1,0 +1,14 @@
+{
+  "version": "0.12.0-first-start-compat",
+  "date": "2026-10-26",
+  "root": "Magisk 30.7",
+  "supported_build": "LineageOS 24.0-20260815-UNOFFICIAL-gapps-odin",
+  "missing_hint_before_reboot": true,
+  "boot_worker_initialized_hint_after_unlock": true,
+  "cta_false_preserved": true,
+  "repeated_action_preference_sha256_unchanged": true,
+  "cold_camera_start_and_preview": true,
+  "selinux": "Enforcing",
+  "other_modes_retested": false,
+  "resukisu_profiles_changed": false
+}

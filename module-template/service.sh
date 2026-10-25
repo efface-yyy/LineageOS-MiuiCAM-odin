@@ -6,4 +6,6 @@ done
 cmd appops set com.android.camera MANAGE_EXTERNAL_STORAGE allow
 
 MODDIR=${0%/*}
+# Separate worker waits for user unlock without delaying the allocator setup.
+sh "$MODDIR/first-start.sh" &
 su -mm -c "sh $MODDIR/ambilight-bind.sh"

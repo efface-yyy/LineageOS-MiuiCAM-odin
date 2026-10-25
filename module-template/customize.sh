@@ -4,6 +4,8 @@ ui_print "- MIX 4 MIUI Camera / LineageOS compatibility test"
 set_perm_recursive "$MODPATH" 0 0 0755 0644
 set_perm "$MODPATH/post-fs-data.sh" 0 0 0755
 set_perm "$MODPATH/service.sh" 0 0 0755
+set_perm "$MODPATH/first-start.sh" 0 0 0755
+set_perm "$MODPATH/action.sh" 0 0 0755
 
 BASELINE=4a3237bc7cc0e50c5e7b4d5cbba3843882e06809846a5e8862033057a5077ac2
 CURRENT=$(sha256sum /system/bin/cameraserver)

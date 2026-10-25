@@ -2,6 +2,13 @@
 
 [English](CHANGELOG.md) | [简体中文](CHANGELOG.zh-CN.md)
 
+## 0.12.0 — 2026-10-26
+
+- Initialize only a missing first-use hint after user unlock; keep existing preferences and CTA/network consent unchanged.
+- Add a module action button to retry after camera data clearing.
+- APK, native algorithms, HAL and stabilization patches are byte-identical to 0.11.
+- ReSukiSU app profiles are not automatically changed.
+
 ## 0.11.0 — 2026-10-20
 
 - Fix SSC synchronous gyro range-start omission by using the existing bounded timestamp scan from the oldest valid ring index.

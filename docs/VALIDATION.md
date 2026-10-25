@@ -31,3 +31,7 @@ Only slow rotation was repeated after the fix, not another walking or stock-ROM 
 Earlier module versions were exercised for front/rear JPEG, HDR multi-frame processing, night mode, 108MP, physical telephoto still capture in bright conditions, 1080p/4K60/8K, HDR10+ dynamic metadata, RAW, slow motion, timelapse, dual recording, thumbnails and ambilight long exposure. 0.10 fixed dual recording's second audio path and the exact ambilight allocator incompatibility.
 
 Those are earlier-version results, not a claim that all modes were retested on 0.11. Full moving panorama stitching, complete VLOG template assembly, real moon/dark-scene quality, uninterrupted physical-telephoto video and every parameter combination were not exhaustively validated. Further non-stabilization testing was cancelled by the device owner. Private captures and raw device logs are intentionally excluded from this release.
+
+## 0.12 startup regression — 2026-10-26
+
+Magisk 30.7 installation and reboot passed. A deliberately missing first-use hint was restored by the boot worker after unlock; CTA remained false. Repeated module action execution preserved the preference-file hash. Camera cold start and preview passed with SELinux Enforcing. This update did not repeat capture/video or the full feature matrix. See records/first-start-validation.json.

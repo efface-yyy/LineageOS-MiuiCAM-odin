@@ -2,7 +2,7 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-MIUI Camera **5.1.001130.2** compatibility port for **Xiaomi MIX 4 (odin)**, distributed as a Magisk module. Current release: **0.11.0-ncs-timestamp-range**, 2026-10-20.
+MIUI Camera **5.1.001130.2** compatibility port for **Xiaomi MIX 4 (odin)**, distributed as a Magisk module. Current release: **0.12.0-first-start-compat**, 2026-10-26.
 
 Co-Engineered with ChatGPT
 
@@ -16,16 +16,18 @@ This is a build-specific compatibility release. Do not bypass the hash checks or
 
 ## Downloads
 
-Use the [v0.11.0 release](https://github.com/efface-yyy/LineageOS-MiuiCAM-odin/releases/tag/v0.11.0), not GitHub's automatically generated source ZIP, for installation.
+Use the [v0.12.0 release](https://github.com/efface-yyy/LineageOS-MiuiCAM-odin/releases/tag/v0.12.0), not GitHub's automatically generated source ZIP, for installation.
 
 | File | Purpose |
 |---|---|
-| odin_lineage_miuicamera_0.11.0-ncs-timestamp-range.zip | Current Magisk module |
-| odin_lineage_miuicamera_0.10.0-rollback-from-0.11.zip | Dedicated rollback to 0.10; recognizes the 0.11 HAL hash |
-| odin_miuicamera_0.11.0-source-materials.zip | Compatibility source, patch generators, module text files and technical records; not flashable |
+| odin_lineage_miuicamera_0.12.0-first-start-compat.zip | Current Magisk module |
+| [Previous release and rollback](https://github.com/efface-yyy/LineageOS-MiuiCAM-odin/releases/tag/v0.11.0) | Historical 0.11 / 0.10 packages |
+| odin_miuicamera_0.12.0-source-materials.zip | Compatibility source, patch generators, module text files and technical records; not flashable |
 | SHA256SUMS.txt | SHA-256 checksums of the assets |
 
 Read [installation and rollback](docs/INSTALL.md) before installing.
+
+0.12 initializes a missing first-use hint after unlock, preventing immediate exit on fresh camera data. Existing preferences and network consent are preserved. The module action button retries this initialization after data clearing; ReSukiSU mount profiles remain manual.
 
 ## What changed
 

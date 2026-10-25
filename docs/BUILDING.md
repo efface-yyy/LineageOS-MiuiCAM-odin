@@ -31,3 +31,7 @@ The latest NCS patch is directly reproducible once the 0.10 module payload is ex
 
 No kernel build is needed or included. Kernel/device source links are in README. Source materials do not grant rights over proprietary OEM components; see third-party notices.
 
+
+## 0.12 packaging
+
+`python tools/package_first_start_module.py BASE_0_11_ZIP OUTPUT_ZIP` preserves all binary payloads and verifies the APK/HAL hashes. Only module.prop/service.sh/customize.sh are replaced; first-start.sh and action.sh are added from module-template. See records/first-start-build.json.

@@ -31,3 +31,7 @@ Native 桥接使用 Keystone 组装及 Android SDK build-tools 36.0.0 的 lld �
 
 无需编译内核，本模块也不提供替代内核。设备树和内核源码链接见项目首页。专有组件权利不因本源码材料公开而变更，详见[第三方说明](../THIRD_PARTY_NOTICES.zh-CN.md)。
 
+
+## 0.12 打包
+
+运行 `python tools/package_first_start_module.py BASE_0_11_ZIP OUTPUT_ZIP`，保留所有二进制内容并校验 APK／HAL 哈希。仅替换 module.prop、service.sh、customize.sh，从 module-template 添加 first-start.sh 和 action.sh，记录见 records/first-start-build.json。
